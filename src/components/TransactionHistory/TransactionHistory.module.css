@@ -1,0 +1,24 @@
+.transaction-history {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgb(175, 163, 163);
+}
+
+.thead {
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(9, 177, 199);
+}
+
+.transaction-tr:nth-child(2n-1) {
+  background-color: white;
+}
+
+.transaction-tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+.transaction-tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
